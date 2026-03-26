@@ -10,7 +10,10 @@ class Home extends StatelessWidget {
         child: Container(
           color: Colors.blue,
           child: Center(
-            child: Text('this is home', style: TextStyle(color: Colors.red)),
+            child: Text(
+              'this is home',
+              style: TextStyle(color: Colors.red, fontSize: 20),
+            ),
           ),
         ),
       ),
